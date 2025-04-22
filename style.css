@@ -1,0 +1,45 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+.simulator {
+  margin: 20px 0;
+}
+.simulator svg {
+  width: 100%;
+  height: auto;
+}
+.palette {
+  margin-top: 20px;
+}
+.palette h2 {
+  margin-bottom: 10px;
+}
+.swatches {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.swatch {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+.swatch:hover {
+  border-color: #000;
+}
+#instruction {
+  margin-top: 15px;
+  font-style: italic;
+}
